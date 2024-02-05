@@ -4,7 +4,7 @@ let askNumbers;
 
 // creazione ciclo while
 
-while (sum <= 50) {
+while (sum < 50) {
     askNumbers = Number(prompt("Please insert number"));
     numbersArray.push(askNumbers);
     sum += askNumbers;
